@@ -27,7 +27,7 @@ jobs:
         with:
           directory: .
           framework: terraform 
-        #continue-on-error: true
+        continue-on-error: true
      
   Apply:
     name: 'Apply Changes'
